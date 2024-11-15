@@ -14,10 +14,14 @@ btn2.style.fontSize = '24px';
 btn2.style.background = 'tomato';
 btn2.style.margin = '0 10px 0 0';
 
+const buatNama = document.createElement('p');
+const warnaText = 'Aldirisky Pratama'
+
 function jadiNama() {
-  const buatNama = document.createElement('p');
-  buatNama.textContent = 'Aldirisky Pratama';
+  buatNama.textContent = warnaText;
   windoww.append(buatNama);
 }
 
-function ubahWarna() {}
+function ubahWarna() {
+  buatNama.style.color = 'red'
+}
